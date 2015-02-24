@@ -15,8 +15,8 @@ public class Util {
         return new TimedResult<T1>(tookTime, result);
     }
 
-    public static void p(String message) {
-        System.out.println(message);
+    public static void p(Object message) {
+        System.out.println((message == null ? "null" : message.toString()));
     }
 
     public static class TimedResult<T1> {

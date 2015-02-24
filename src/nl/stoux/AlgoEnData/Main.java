@@ -1,11 +1,8 @@
 package nl.stoux.AlgoEnData;
 
-import nl.stoux.AlgoEnData.H2.Opdracht6;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.function.Consumer;
-import java.util.stream.IntStream;
 
 /**
  * Created by Stoux on 08/02/2015.
@@ -13,7 +10,7 @@ import java.util.stream.IntStream;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-
+        nl.stoux.AlgoEnData.H3.Opdracht3.run();
     }
 
     public static void readlines(Consumer<String> onLine) throws Exception{
